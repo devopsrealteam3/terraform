@@ -15,7 +15,7 @@
 
 
 resource "aws_security_group" "allow_tls" {
-  name        = "allow_tls_22nov222211"
+  name        = "coalindia_demo_sg"
   description = "Allow TLS inbound traffic"
   vpc_id      = "vpc-0e0f84311b585d9b0"
 
