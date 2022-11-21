@@ -9,5 +9,6 @@ variable "provider_token" {
 }
 
 provider "aws" {
-  profile = "default"
+  region = "ap-south-1"
+  #profile = "default"
 }
