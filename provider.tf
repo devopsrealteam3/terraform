@@ -3,12 +3,10 @@
 # though: using the remote backend, Terraform will execute remotely in Terraform
 # Cloud where your token is already securely stored in your workspace!
 
-variable "provider_token" {
-  type = string
-  sensitive = true
-}
+
 
 provider "aws" {
   region = "ap-south-1"
-  #profile = "default"
+  access_key = var.AWS_ACCESS_KEY
+  secret_key = var.AWS_SECRET_KEY
 }

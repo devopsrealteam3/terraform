@@ -1,2 +1,0 @@
-provider_token = "LkGG659tz7pyIQ.atlasv1.UR6AGQYXAgMLyRLD5aPtwzTWUYkznbZDdaMdep8qp4NNXf780U7d9f1noXBjNsWaH2k"
-
