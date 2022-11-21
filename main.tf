@@ -1,6 +1,8 @@
 
 provider "aws" {
   region = "ap-south-1"
+  access_key = "var.my_access_key"
+  secret_key = "var.my_secret_key"
 }
 
 resource "aws_security_group" "allow_tls" {
